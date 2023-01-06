@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+.cover-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 550px;
+    margin-left: 95px;
+    margin-top: 112px;
+    background: #F5F7FB;
+    align-items: center;
+}
+
+.cover-title {
+    width: 412px;
+    height: 41px;
+    margin-top: 218px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+    text-align: center;
+    color: #293264;
+}
+
+.cover-desc {
+    width: 318px;
+    height: 19px;
+    margin-top: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #293264;
+}
+
+.cover-button {
+    width: 193px;
+    height: 52px;
+    margin-top: 29px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #F5F7FB;
+}
+
+.quiz-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 112px;
+    background: #F5F7FB;
+    align-items: center;
+}
+
+.quiz-score {
+    width: 262px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #293264;
+}
+
+.quiz-button {
+    width: 104px;
+    height: 40px;
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    margin-bottom: 10px;
+}
+
+.question-container {
+    /* width: 90%; */
+}
+
+.question-challenge {
+    width: 550px;
+    height: 19px;
+    margin-bottom: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+}
+
+.question-choice-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.question-choice {
+    height: 30px;
+    margin-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    list-style: none;
+    background: #FFFFFF;
+    border-radius: 7.94239px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 10px;
+    text-align: center;
+    color: #293264;
+    border: solid 1px #293264;
+}
+
+.question-inactive {
+    height: 30px;
+    margin-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    list-style: none;
+    background: #D6DBF5;
+    border-radius: 7.94239px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 10px;
+    text-align: center;
+    color: #293264;
+    opacity: 0.5;
+}
+
+.question-selected {
+    height: 30px;
+    margin-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    list-style: none;
+    background: #C6CBFE;
+    border-radius: 7.94239px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 10px;
+    text-align: center;
+    color: #293264;
+}
+
+.question-correct {
+    height: 30px;
+    margin-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    list-style: none;
+    background: #94D7A2;
+    border-radius: 7.94239px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 10px;
+    text-align: center;
+    color: #293264;
+}
+
+.question-incorrect {
+    height: 30px;
+    margin-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    list-style: none;
+    background: #F8BCBC;
+    border-radius: 7.94239px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 10px;
+    text-align: center;
+    color: #293264;
+    opacity: 0.5;
+}
+
+.question-divider {
+    border: 0.794239px solid #DBDEF0;
+}
